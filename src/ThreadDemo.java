@@ -22,7 +22,7 @@ public class ThreadDemo extends Thread{
         System.out.println("\nThread: " + threadName + " exiting.");
     }
 
-    public void start
+    public void start()
     {
         System.out.println(("\nStarting " + threadName));
         if(t==null)
